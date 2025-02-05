@@ -29,6 +29,11 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'isClubAccount',
+        'isAdmin',
+        'isEditor',
+        'lastVisit',
+        'num_visits',
     ];
 
     /**
